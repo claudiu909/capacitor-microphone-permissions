@@ -1,0 +1,41 @@
+{
+  "name": "@claudiu909/capacitor-microphone-permissions",
+  "version": "6.0.0",
+  "description": "A Capacitor plugin to handle microphone permissions on Android and iOS.",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudiu (claudiu.smap@gmail.com)",
+  "license": "MIT",
+  "keywords": [
+    "capacitor",
+    "microphone",
+    "permissions",
+    "plugin",
+    "KnbCapacitorMicrophonePermissions.podspec"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiu909/capacitor-microphone-permissions.git"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  }
+}
