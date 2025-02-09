@@ -21,7 +21,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "KnbCapacitorMicrophonePermissions.podspec"
+    "Claudiu909CapacitorMicrophonePermissions.podspec"
   ],
   "repository": {
     "type": "git",
