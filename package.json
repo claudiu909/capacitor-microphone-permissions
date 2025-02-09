@@ -14,7 +14,13 @@
     "capacitor",
     "microphone",
     "permissions",
-    "plugin",
+    "plugin"
+  ],
+  "files": [
+    "android/src/main/",
+    "android/build.gradle",
+    "dist/",
+    "ios/Plugin/",
     "KnbCapacitorMicrophonePermissions.podspec"
   ],
   "repository": {
