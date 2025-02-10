@@ -1,10 +1,12 @@
-package com.example.microphonepermissions;
+package com.claudiu909.capacitormicrophonepermissions;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
 
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
+import com.getcapacitor.PluginMethod;
+import com.getcapacitor.PermissionState;
 import com.getcapacitor.annotation.CapacitorPlugin;
 import com.getcapacitor.annotation.Permission;
 import com.getcapacitor.annotation.PermissionCallback;
@@ -46,4 +48,4 @@ public class CapacitorMicrophonePermissionsPlugin extends Plugin {
             call.reject("Microphone permission denied");
         }
     }
-}
+} 
